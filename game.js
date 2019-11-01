@@ -108,6 +108,8 @@ $("#gameBox").mousedown(function(){
     
     $("#gameBox").width(originalGameBoxWidth);
     $("#gameBox").height(originalGameBoxHeight);
+    gameBoxWidth = originalGameBoxWidth;
+    gameBoxHeight = originalGameBoxHeight;
     $("#gameBox").css("border-style", "none");
     $("#gameBox").css("background-color", "darkcyan");
     $("#startButton").html("Start Level " + level);
