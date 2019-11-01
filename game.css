@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#gameBox {
+    background-color: darkcyan;
+    width: 100px;
+    height: 100px;
+}
+
+#scoreBoard {
+    position: absolute;
+}
+
+#gameBoard {
+    height: 90%;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+#countdown {
+    font-size: 50px;
+}
+
+#startButton {
+    background-color: darkcyan; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  #highestLevel {
+      text-align: center;
+  }
+
+  @media only screen and (max-width: 870px) {
+    #scoreBoard {
+        position: relative;
+        text-align: center;
+    }
+    #gameBoard {
+        width: 90%;
+        height: 50%;
+    }
+    #gameBox {
+        width: 70px;
+        height: 70px;
+    }
+    #countdown {
+        font-size: 30px;
+    }
+  }
